@@ -26,14 +26,10 @@ python3 mdtable.py fileName.md
 ```
 python3 mdtable.py fileName.md h1 h3
 ```
-> This will include only the Heading of level one and three to the table of contents. 
+> This example will include only the Heading of level one and three to the table of contents. 
+> If No header is specified it will only included h1 by default.
+> If another header then h1 is specified then h1 will not be included by default.
 
 ### Tips & Advice
 This program only work with the default syntax and only consider headers level 1 to 6 marked with the symbol __#__ alternative syntax wont work.
 
-#### The program is made in python
-python is a programming language
-
-##### it work from the terminal
-
-###### the end  
